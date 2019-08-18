@@ -7,62 +7,8 @@
     <link href="../style.css" rel="stylesheet" type="text/css" />
     <link rel="icon" href="icon.JPG" type="image/icon type">
   </head>
-
-  <header>
-	<ul>
-  <li><a href="../index.html">Home</a></li>
-  <li><a href="../news/index.html">News</a></li>
-    <li class="dropdown">
-       <a href="javascript:void(0)" class="dropbtn">GCSE History
-       </a>
-       <div class="dropdown-content">
-    <a href="../GCSE-History/The-Norman-Conquest.html">The Norman Conquest</a>
-    <a href="../GCSE-History/King-John-and-the-Magna-Carta.html">King John and the Magna Carta</a>
-    <a href="../GCSE-History/The-Napoleonic-Wars.html">The Napoleonic Wars</a>
-    <a href="../GCSE-History/The-Vietnam-War.html">The Vietnam War</a>
-    <a href="../GCSE-History/WWII.html">World War II</a>
-    <a href="../GCSE-History/Formation-of-the-USSR-and-Communism.html">Formation of the USSR and Communism</a>
-    <a href="../GCSE-History/The-French-Revolution.html">The French Revolution</a>
-    <a href="../GCSE-History/WW1.html">World War I</a>
-    </div>
-          </li>
-  <li style="float:right"><a href="../register/index.html">Register</a></li>
-  <li style="float:right"><a href="../login/index.html">Login</a></li>
-  <li style="float:right"><a href="../about/index.html">About</a></li>
-	</ul>
-	  </header>
-	  </head>
-<body>
-
-<h2>Login Form</h2>
-<h4><i>Login with the username and password given by your organisation.</i></h4>
-<form action="/action_page.php">
-  <div class="imgcontainer">
-    <img src="https://cdn.osxdaily.com/wp-content/uploads/2013/07/contacts-icon.jpg" alt="You" style="width:128px;height:128px;" class="avatar">
-  </div>
-
-  <div class="container">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-        
-    <button type="submit">Login</button>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-  </div>
-
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
-	form {
-  border: 3px solid #f1f1f1;
-}
-
-/* Full-width inputs */
+<style>
+	/* Full-width inputs */
 input[type=text], input[type=password] {
   width: 100%;
   padding: 12px 20px;
@@ -128,6 +74,62 @@ span.psw {
     width: 100%;
   }
 }
+	</style>
+  <header>
+	<ul>
+  <li><a href="../index.html">Home</a></li>
+  <li><a href="../news/index.html">News</a></li>
+    <li class="dropdown">
+       <a href="javascript:void(0)" class="dropbtn">GCSE History
+       </a>
+       <div class="dropdown-content">
+    <a href="../GCSE-History/The-Norman-Conquest.html">The Norman Conquest</a>
+    <a href="../GCSE-History/King-John-and-the-Magna-Carta.html">King John and the Magna Carta</a>
+    <a href="../GCSE-History/The-Napoleonic-Wars.html">The Napoleonic Wars</a>
+    <a href="../GCSE-History/The-Vietnam-War.html">The Vietnam War</a>
+    <a href="../GCSE-History/WWII.html">World War II</a>
+    <a href="../GCSE-History/Formation-of-the-USSR-and-Communism.html">Formation of the USSR and Communism</a>
+    <a href="../GCSE-History/The-French-Revolution.html">The French Revolution</a>
+    <a href="../GCSE-History/WW1.html">World War I</a>
+    </div>
+          </li>
+  <li style="float:right"><a href="../register/index.html">Register</a></li>
+  <li style="float:right"><a href="../login/index.html">Login</a></li>
+  <li style="float:right"><a href="../about/index.html">About</a></li>
+	</ul>
+	  </header>
+	  </head>
+<body>
+
+<h2>Login Form</h2>
+<p><i>Login with the username and password given by your organisation.</i></p>
+<form action="/action_page.php">
+  <div class="imgcontainer">
+    <img src="https://cdn.osxdaily.com/wp-content/uploads/2013/07/contacts-icon.jpg" alt="You" style="width:128px;height:128px;" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+	form {
+  border: 3px solid #f1f1f1;
+}
+
+
 </form>
 
 </body>
