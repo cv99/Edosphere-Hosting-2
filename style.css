@@ -70,6 +70,12 @@ li{
 }
 
 .sub{
+  font-family: 'Courier New', Courier, monospace;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
   float:left;
   color: white;
   border-right: 5px solid #bbb;
