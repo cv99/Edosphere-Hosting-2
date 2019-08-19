@@ -69,6 +69,12 @@ li{
   border-right: 1px solid #bbb;
 }
 
+.sub{
+  float:left;
+  border-right: 5px solid #bbb;
+  font-size; 5px
+}
+
 li c {
   border-right: default;
 }
