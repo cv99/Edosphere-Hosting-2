@@ -76,10 +76,9 @@ li{
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  float:left;
-  color: white;
-  border-right: 5px solid #bbb;
-  font-size; 5px
+	
+  float: left;
+  border-right: 1px solid #bbb;
 }
 
 li c {
