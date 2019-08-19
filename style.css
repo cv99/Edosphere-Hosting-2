@@ -71,6 +71,7 @@ li{
 
 .sub{
   float:left;
+  color: white;
   border-right: 5px solid #bbb;
   font-size; 5px
 }
