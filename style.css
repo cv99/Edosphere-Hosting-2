@@ -175,3 +175,7 @@ h6 {
 	font-size: 5vh;
 	font-family: 'Courier New', Courier, monospace;
 }
+
+#subHH {
+    margin-top: 0;
+}
