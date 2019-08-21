@@ -6,13 +6,23 @@ To host the website www.edosphere.org, dedicated to revision materials.
 
 _*Repository Details*_
 
-Branches Christopher-B and Christopher-L have been created. Edits should be made in branches then a pull request
-should be created to push changes to master. 
+For each edit, create a new branch for accountability. 
 
-_*Languages*_
+_*Formatting Numbers*_
 
-HTML
+Generation 1
 
-Java
+1.0: Raw Format
+1.1: Edited Format
+1.2: Sections Numbered and With Spaces
+1.2.1: Grammatical Check Complete
 
-CSS
+Generation 2
+
+2.0 New Standardised Format
+2.1 Links to Sections
+2.1.1 Revised Links
+
+_*Uploading Status*_
+Batch 1
+80%
