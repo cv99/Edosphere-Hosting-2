@@ -1,19 +1,19 @@
 h1 {
     font-size: 10vh;
     color: blue;
-    font-family: 'Helvetica Neue', 'Calibri', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Helvetica Neue', 'Calibri', Arial, sans-serif;
 }
 h3 {
 	font-size: 5vh;
 	color: black;
-	font-family: 'Helvetica Neue', 'Times New Roman', serif;
+	font-family: 'Helvetica Neue', 'Calibri', Arial, serif;
 }
 
 
 h4 {
     font-size: 3vh;
     color: black;
-    font-family: 'Helvetica Neue', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Helvetica Neue', 'Calibri' , Arial, serif;
 }
 
 #landingWelcome {
@@ -23,7 +23,7 @@ h4 {
 #article{
     font-size: 2vh;
     color: black;
-    font-family: 'Helvetica Neue', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Helvetica Neue', 'Calibri', Arial, serif;
 
 }
 
@@ -31,7 +31,7 @@ h2 {
     font-size: 3vh;
     color: black;
     text-indent: 2vh;
-    font-family: 'Helvetica Neue', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Helvetica Neue', 'Calibri', Arial, serif;
 }
 
 h3 {
@@ -56,7 +56,7 @@ h3 {
 }
 
 ul {
-  font-family: 'Helvetica Neue', 'Courier New', Courier, monospace;
+  font-family: 'Helvetica Neue', 'Calibri', Arial, 'Courier New', Courier, monospace;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -70,7 +70,7 @@ li{
 }
 
 .sub{
-  font-family: 'Helvetica Neue','Courier New', Courier, monospace;
+  font-family: 'Helvetica Neue', 'Calibri', Arial, 'Courier New', Courier, monospace;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -168,12 +168,12 @@ body, html {
 h6 {
 	font-size: 20vh;
 	color: white;
-	font-family: 'Helvetica Neue', 'Times New Roman', serif;
+	font-family: 'Helvetica Neue', 'Calibri',Arial, 'Times New Roman', serif;
 }
 
 #bigWhite {
 	font-size: 5vh;
-	font-family: 'Courier New', Courier, monospace;
+	font-family: 'Courier New', Arial, Courier, monospace;
 }
 
 #subHH {
