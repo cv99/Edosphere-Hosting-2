@@ -32,7 +32,7 @@
     <a href="../GCSE-History/The-Napoleonic-Wars.html">The Napoleonic Wars</a>
     <a href="../GCSE-History/The-Vietnam-War.html">The Vietnam War</a>
     <a href="../GCSE-History/WWII.html">World War II</a>
-    <a href="../GCSE-History/Formation-of-the-USSR-and-Communism.html">Formation of the USSR and Communism</a>
+    <a href="../GCSE-History/Formation-of-the-USSR-and-Communism.html">Formation-of-the-USSR-and-Communism</a>
     <a href="../GCSE-History/The-French-Revolution.html">The French Revolution</a>
     <a href="../GCSE-History/WW1.html">World War I</a>
     <a href="../GCSE-History/The-Cold-War.html">The Cold War</a>
@@ -46,17 +46,20 @@
         <div style='float:left'><h4 id='subHH' span style='display:inline'><p style='margin-top:15px'>GCSE History--></p></h4></div> <div style='float:left; text-align:center;'><h4 id='subHH' style="font-size:50px; float:right; margin-top:-6px; display:block; margin: 0 auto; text-align: center"> The American Cevil War</h4></div><br>
         <div style='float:right; width: 200px'>	
 	    <ul>
-	 <li style="color:blue;"><a href="#j1">Causes of the American Cevil War</a></li>
-	 <li style="color:blue;"><a href="#j2">Living in the Civil War</a></li>
-	 <li style="color:blue;"><a href="#j3">The Events of the War</a></li>
+	 <li style="color:blue;"><a href="#j1">What is Communism?</a></li>
+	 <li style="color:blue;"><a href="#j2">Invention of Communism</a></li>
+	 <li style="color:blue;"><a href="#j3">Introduction of Communism to the USSR</a></li>
+	 <li style="color:blue;"><a href="#j4">Leaders and Rise to Power</a></li>
+	 <li style="color:blue;"><a href="#j5">Policies of Communism</a></li>
+   <li style="color:blue;"><a href="#j6">Joseph Stalin</a></li>
 	    </ul> </div>
 	    <br>
 	    <br>
     <!--</div>-->
   </header>
-  
-  
-  <div id='article'>
+
+    
+    <div id='article'>
 
 <a id="j1"><h2><i>§1Causes of the American Cevil War</i></h2></a>
 
@@ -74,7 +77,7 @@
 
 <p>The war began to brew when the Confederation was formed on February 9th, 1861. This was where the southern states formed their own joint country called the Confederate States of America, with Jefferson Davis as their president. Just two months later, the Civil War commenced on April 12th, 1861 as the Southerners attacked starting the first battle of the war, Fort Sumter. This is named after the location of the fighting, which is a small island in South Carolina. In this same month four more states, Virginia, North Carolina, Tennessee, and Arkansas, all left the Union (the north) to join the Confederacy. On April 19th, just about a week after the start of the war, Abraham Lincoln announced his plan of action. This was the Union Blockade, where the Union Navy would attempt to keep supplies from entering or leaving the Confederacy. This blockade forced the Confederacy to ration and reduce their supplies. This would of course weaken them later in the war, and perhaps even be a significant reason for the North’s eventual victory. For the next year were a series of many smaller battles in which both sides lost many men. However, some more significant of these included the first and second battles of Bull Run, fought near the Bull Run river in North Virginia. The Confederates claimed victory over the North, which was more than could be said for the Battle of Hampton Road, between the two ironclad ships, the Monitor and Merrimac, the toughest warships yet on the sea, where this ended up in an eventual stalemate. On January 1st, 1863, in quite a contradictory manner, President Lincoln Ordered for many slaves across America to be freed, and this laid foundations for the Thirteenth Amendment, which was a document stating the abolishment of slavery. This was called the Emancipation Proclamation and, six months later, the War was slowly coming to an end as the North won a hugely important victory at Gettysburg, on the 1st of July 1863. The war ended in Spring, 1865 when Robert E. Lee surrendered the last major Confederate army to the North at Appomattox Courthouse on April 9, 1865. However, in some sense, the victory of the Northern was not surprising as their army contained 2,100,00, roughly twice the number fighting for the confederates.</p>
 
- <br><br>
+    <br><br>
       <h2><i>Exam-Style Questions</i></h2>
 <br>
 <br>
@@ -88,4 +91,4 @@
     </div>
     <script src="script.js"></script>
   </body>
- </html>
+</html>
