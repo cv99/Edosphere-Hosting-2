@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,7 +7,7 @@
     <title>Edosphere</title>
     <link href="../style.css" rel="stylesheet" type="text/css" />
     <link rel="icon" href="../icon.JPG" type="image/icon type">
- <!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145886974-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -14,13 +15,13 @@
   gtag('js', new Date());
   gtag('config', 'UA-145886974-1');
 </script>
-
+<!--Google priority 0.80-->
   </head>
-<a name="top"></a>
+	<a name="top"></a>
   <body>
 
   <header>
-    <ul>
+	<ul>
   <li><a href="../index.html">Home</a></li>
   <li><a href="../news/index.html">News</a></li>
     <li class="dropdown">
@@ -32,7 +33,7 @@
     <a href="../GCSE-History/The-Napoleonic-Wars.html">The Napoleonic Wars</a>
     <a href="../GCSE-History/The-Vietnam-War.html">The Vietnam War</a>
     <a href="../GCSE-History/WWII.html">World War II</a>
-    <a href="../GCSE-History/Formation-of-the-USSR-and-Communism.html">Formation-of-the-USSR-and-Communism</a>
+    <a href="../GCSE-History/Formation-of-the-USSR-and-Communism.html">Formation of the USSR and Communism</a>
     <a href="../GCSE-History/The-French-Revolution.html">The French Revolution</a>
     <a href="../GCSE-History/WW1.html">World War I</a>
     <a href="../GCSE-History/The-Cold-War.html">The Cold War</a>
@@ -41,24 +42,23 @@
   <li style="float:right"><a href="../register/index.html">Register</a></li>
   <li style="float:right"><a href="../login/index.html">Login</a></li>
   <li style="float:right"><a href="../about/index.html">About</a></li>
-    </ul>
+	</ul>
+
+
+
     <!--<div id='landingWelcome'>-->
         <div style='float:left'><h4 id='subHH' span style='display:inline'><p style='margin-top:15px'>GCSE History--></p></h4></div> <div style='float:left; text-align:center;'><h4 id='subHH' style="font-size:50px; float:right; margin-top:-6px; display:block; margin: 0 auto; text-align: center"> The American Cevil War</h4></div><br>
         <div style='float:right; width: 200px'>	
 	    <ul>
-	 <li style="color:blue;"><a href="#j1">What is Communism?</a></li>
-	 <li style="color:blue;"><a href="#j2">Invention of Communism</a></li>
-	 <li style="color:blue;"><a href="#j3">Introduction of Communism to the USSR</a></li>
-	 <li style="color:blue;"><a href="#j4">Leaders and Rise to Power</a></li>
-	 <li style="color:blue;"><a href="#j5">Policies of Communism</a></li>
-   <li style="color:blue;"><a href="#j6">Joseph Stalin</a></li>
+	 <li style="color:blue;"><a href="#j1">Causes of the American Cevil War</a></li>
+	 <li style="color:blue;"><a href="#j2">Living in the Cevil War</a></li>
+	 <li style="color:blue;"><a href="#j3">The events of the War</a></li>
 	    </ul> </div>
 	    <br>
 	    <br>
     <!--</div>-->
+	  
   </header>
-
-    
     <div id='article'>
 
 <a id="j1"><h2><i>§1Causes of the American Cevil War</i></h2></a>
