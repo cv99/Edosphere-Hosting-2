@@ -81,6 +81,17 @@ li{
   border-right: 1px solid #bbb;
 }
 
+/* Vertical white lines fix */
+.contents li {
+	width: 200px;
+	border: none;
+	margin: 0;
+}
+
+.contents li a {
+	width: 168px;
+}
+
 li c {
   border-right: default;
 }
@@ -97,7 +108,6 @@ li a {
 li a:hover {
   background-color: #111;
 }
-
 
 li a, .dropbtn {
   display: inline-block;
