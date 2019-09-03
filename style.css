@@ -50,6 +50,11 @@ h3 {
 	
 }
 
+:target h2 {
+	color: #008080;
+ 	transition: 0.8s;
+}
+
 #list {
 	width: 100%;
 
