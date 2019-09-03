@@ -1,0 +1,96 @@
+/* This is the CSS for the article pages */
+
+#article {
+	width: 43%;
+	margin-left: 20%;
+	padding: 60px 0 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Patua One', cursive;
+	font-weight: 400;
+}
+
+h4 {
+	margin-bottom: 6px;
+}
+
+h5, h6 {
+	margin-bottom: 3px;
+}
+
+p, author {
+	font-family: 'Merriweather', serif;
+	font-size: 14px;
+}
+
+author {
+	/*text-indent: 50px;*/
+	text-align: center;	
+}
+
+p {
+	margin-top: 0;
+	text-align: justify;
+}
+
+.anchor {
+	padding-top: 60px;
+	margin-top: -60px;
+}
+
+:target {
+	color: #008080;
+  transition: 0.8s;
+}
+
+#contents {
+	position: fixed;
+	width: 15%;
+	z-index: 1;
+	margin-top: 60px;
+	margin-left: 65%;
+	background-color: #008080;
+}
+
+#contents ol {
+	list-style-type: none;
+	padding: 18px;
+	margin: 0;
+}
+
+#contents ol li {
+	margin-bottom: 10px;
+}
+
+#contents ol li:last-child {
+	margin-bottom: 0;
+}
+
+#contents ol li a {
+	text-decoration: none;
+	color: white;
+	transition: 0.5s;
+	font-family: 'Merriweather', serif;
+	font-size: 14px;
+}
+
+#contents ol li a:hover {
+	color: #111;
+  transition: 0.5s;
+}
+
+img {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #008080;
+	transition: 0.5s;
+}
+
+a:hover {
+	color: #111;
+	transition: 0.5s;
+}
