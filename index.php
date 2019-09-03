@@ -1,0 +1,74 @@
+<!-- This is currently a placeholder page for the home page. Feel free to replace it with the real one! -->
+
+<html>
+  <head>
+    <title>Edosphere</title>
+		<link href="globalStyle.css" rel="stylesheet" type="text/css"/>
+		<link href="https://fonts.googleapis.com/css?family=Merriweather:300|Patua+One|Ubuntu:500,700&display=swap" rel="stylesheet">
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+		<header style="position: fixed; width: 100%; z-index: 1;">
+			<ul id="navbar">
+				<li><a href="index.php">Home</a></li>
+  			<li><a href="news/index.html">News</a></li>
+				<?php
+$dir = new DirectoryIterator("article/articles");
+foreach ($dir as $fileInfo) {
+	if (!$fileInfo->isDot()) {
+		$subject = $fileInfo->getFilename();
+		$menu = '<li class="dropdown"><a href="javascript:void(0)" class="dropbtn">' . $subject . '</a><div class="dropdown-content">';
+		$subDir = new DirectoryIterator("article/articles/".$subject);
+		foreach ($subDir as $subFileInfo) {
+			$article = $subFileInfo->getFilename();
+			if (!$fileInfo->isDot() and strpos( $article , '.' ) === false) { // Only includes folders
+				$menu = $menu . "<a href='article?subject=" . str_replace(' ', '+', $subject) . "&article=" . str_replace(' ', '+', $article) . "'>" . $article . "</a>";
+			}
+		}
+		$menu = $menu . "</div></li>";
+		echo $menu;
+	}
+}
+				?>
+				<li style="float:right"><a href="register/index.html">Register</a></li>
+				<li style="float:right"><a href="login/index.html">Login</a></li>
+				<li style="float:right; border-left: 1px solid #bbb;"><a href="about/index.html">About</a></li>
+			</ul>
+		</header>
+
+<!-- WIP!!!
+		<section id='landing'>
+			<?php
+$dir = new DirectoryIterator("article/articles");
+foreach ($dir as $fileInfo) {
+	if (!$fileInfo->isDot()) {
+		$subject = $fileInfo->getFilename();
+		echo "<img src=article/articles/" . $fileInfo->getFilename();
+	}
+}
+			?>
+		</section>
+-->
+
+		<section id='landing'>
+			<ul id='slideshow'>
+				<li style='display: block;'>
+					<h1>Image 1</h1>
+					<h3>This is the first image</h3>
+					<img src='images/image1.jpg'>
+				</li>
+				<li>
+					<img src='images/image0.png'>
+					<h1>Image 2</h1>
+					<h3>This is the second image</h3>
+				</li>
+				<li>
+					<img src=''>
+					<h1>Image 3</h1>
+					<h3>This is the third image</h3>
+				</li>
+			</ul>
+		</section>
+		
+  </body>
+</html>

@@ -1,0 +1,26 @@
+#landing {
+	padding-top: 46px;
+	margin: 0;
+	height: calc(100vh - 46px);
+}
+
+#landing ul {
+	padding: 0;
+	margin: 0;
+}
+
+#landing ul li {
+	display: none;
+	list-style-type: none;
+}
+
+#landing ul li img {
+	width: 100%;
+	height: 100%;
+	display: float;
+}
+
+#landing ul li h1 {
+	display: float;
+	margin-top: 50vh;
+}
